@@ -1,4 +1,4 @@
-const cacheName = "punjabi-web-series-cache-v1";
+const cacheName = "punjabi-web-series-cache";
 const assets = [
   "index.html",
   "styles.css",
