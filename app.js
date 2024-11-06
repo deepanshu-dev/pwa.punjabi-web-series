@@ -1,4 +1,4 @@
-const API_KEY = "AIzaSyALr9tR1bj7ZTvD_K_jrWJqAaZiRUNRlSQ";
+const API_KEY = "";
 
 // Fetch playlists from json file
 async function getPlaylists() {
