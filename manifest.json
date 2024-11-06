@@ -1,11 +1,11 @@
 {
-    "name": "FM Radio",
-    "short_name": "Radio",
-    "description": "Listen to your favorite FM stations",
+    "name": "Punjabi Web Series",
+    "short_name": "Punjabi Web Series",
+    "description": "There is a Collection of Punjabi Web Series Available Free",
     "start_url": "index.html",
     "display": "standalone",
-    "background_color": "#2c2c37",
-    "theme_color": "#edac5e",
+    "background_color": "#f1f5f9",
+    "theme_color": "#2c2c37",
     "icons": [
         {
             "src": "assets/icons/icon-192x192.png",
@@ -13,7 +13,7 @@
             "type": "image/png"
         },
         {
-            "src": "assets/icons/icon-512x512.png",
+            "src": "assets/icons/icon-384x384.png",
             "sizes": "512x512",
             "type": "image/png"
         }
