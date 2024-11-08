@@ -10,7 +10,7 @@ async function getPlaylists() {
 
 // Function to Display playlists on the page
 function displayPlaylists(playlists) {
-  const container = document.getElementById("playlistContainer");
+  const container = document.getElementById("app");
   playlists.forEach((playlist) => {
     const card = document.createElement("div");
     card.className = "card";
@@ -20,7 +20,7 @@ function displayPlaylists(playlists) {
     img.alt = playlist.title;
 
     const title = document.createElement("h2");
-    title.textContent = playlist.title;
+    title.textContent = `${playlist.title} - ${playlist.year}`;
 
     const link = document.createElement("a");
     link.href = playlist.streamURL;
