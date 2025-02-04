@@ -11,7 +11,7 @@ async function getPlaylists() {
 // Function to Display playlists on the page
 function displayPlaylists(playlists) {
   const container = document.getElementById("app");
-  playlists.forEach((playlist) => {
+  playlists.sort((a,b) => b.year - a.year).forEach((playlist) => {
     const card = document.createElement("div");
     card.className = "card";
 
